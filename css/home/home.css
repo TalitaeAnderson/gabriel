@@ -1,0 +1,106 @@
+.home{
+  text-align: center;
+  padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.home::after{
+  content: "";
+  display: block;
+  width: 200px;
+  height: 182px;
+  top: 0;
+  left: 0;
+  background-image: url("../../img/flor-esq.png");
+  position: absolute;
+}
+
+.casamento{
+padding-bottom: 20px;
+}
+
+
+
+
+.nomes{
+  padding-bottom: 20px;
+  color: #686F51;
+}
+
+.envelope{
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+
+ 
+}
+
+.prazer{
+  padding-top: 15px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+
+
+.container-data{
+  width: 60%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  
+}
+
+
+
+.data{
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  width: 80%;
+  display: flex;
+  font-size: 4rem !important;
+}
+
+.data span{
+  border-left: solid 2px black;
+ }
+
+.data span{
+margin: 10px;
+ 
+ }
+
+@media(min-width:500px){
+  .data{
+  justify-content: center;
+  }
+
+
+  
+
+
+}
+
+
+
+
+
+
+.data span{
+  font: 1.5rem "Allura", serif !important;
+  font-weight: bold !important;
+  padding-left: 20px;
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+@media(min-width:500px){
+ 
+}
